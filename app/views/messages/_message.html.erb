@@ -3,8 +3,8 @@
     <div class="message-user">
       <%= message.user.name %>      <!-- 投稿したユーザー名情報を出力する -->
     </div>
-    <div class="message-date">      <!-- 投稿した時刻を出力する -->
-      <%= message.created_at %>
+    <div class="message-date">
+      <%= l message.created_at %>      <!-- 投稿した時刻を出力する -->
 
     </div>
   </div>
